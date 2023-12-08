@@ -5,7 +5,7 @@
   color:white;
 }
 body {
-  background-image: url("bg.jpg");
+  background-color: #004aa3;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
