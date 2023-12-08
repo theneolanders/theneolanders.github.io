@@ -2,19 +2,34 @@
   padding:0px;
   margin:0px;
   font-family: 'Roboto', sans-serif;
-  color:white;
+  color: rgba(255,255,255,1);
+  animation-name: fade;
+  animation-duration: 8s;
+  
 }
 body {
   width:auto;
   height:auto;
-  background-image: linear-gradient(to bottom right, #000000, #434969);
-  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom right, #434969, #000000);
+  background-repeat: repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: 150%;
+  animation-name: gradient;
+  animation-duration: 6s;
 }
 .centered {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   text-align: center;
+}
+
+@keyframes fade {
+  0%{color: rgba(255,255,255,0);}
+  100%{color: rgba(255,255,255,1);}
+}
+
+@keyframes gradient {
+   0%{background-position:100% 0%}
+   100%{background-position:0% 100%}
 }
