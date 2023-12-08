@@ -3,3 +3,9 @@
   margin:0px;
   font-family: 'Roboto', sans-serif;
 }
+body {
+  background-image: url("bg.JPG");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
