@@ -5,8 +5,16 @@
   color:white;
 }
 body {
-  background-color: #004aa3;
+  width:auto;
+  height:auto;
+  background-image: linear-gradient(to bottom right, #000000, #434969);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
 }
