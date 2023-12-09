@@ -5,7 +5,10 @@
   color: rgba(255,255,255,1);
   animation-name: fade;
   animation-duration: 8s;
-  
+}
+:root {
+  --ring-from-pos:0px;
+  --ring-to-pos:-4096px;
 }
 body {
   width:auto;
@@ -32,4 +35,33 @@ body {
 @keyframes gradient {
    0%{background-position:100% 0%}
    100%{background-position:0% 100%}
+}
+
+.navbar {
+  margin-top:0.125in;
+  margin-right:0.125in;
+  float:right;
+  width:1.25in;
+  height:1.25in;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  background-color:transparent;
+}
+
+.navbar > div {
+  animation-name: ring-spin; 
+  animation-duration: 1s;
+  animation-timing-function: steps(32);
+  animation-iteration-count: infinite;
+  background-repeat:no-repeat;
+  background-image:url("https://raw.githubusercontent.com/theneolanders/theneolanders.github.io/main/assets/NeolandSpinLowSheet.webp");
+  width:1.25in;
+  height:1.25in;
+}
+
+@keyframes ring-spin {
+  from {background-position: var(--ring-from-pos), 50%;}
+  to {background-position: var(--ring-to-pos);, 50%;}
 }
