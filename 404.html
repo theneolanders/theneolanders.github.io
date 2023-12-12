@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <!-- Main -->
+        <title>404 Not Found</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Style -->
+        <style>
+            .center{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                width: 100vw;
+                position: relative;
+                pointer-events: none;
+                user-select: none;
+            }
+
+            @media screen and (min-width: 972px) {
+                .center{    
+                    width: 70%;
+                }
+            }
+        </style>
+		
+		
+    </head>
+    <body>
+        <main>
+            <div class="center">
+                <img id="imgDisplay" src="https://www.theneolanders.com/assets/404/Neolanders_404.webp" class="center">
+            </div>
+        </main>
+		
+		<script>
+			const image = document.getElementById("imgDisplay");
+			const sources = ["https://www.theneolanders.com/assets/404/Neolanders_404.webp", "https://www.theneolanders.com/assets/404/Neolanders_404-2.webp"];
+			image.src = sources[getRndInteger(0,sources.length)];
+			
+			function getRndInteger(min, max) {
+				return Math.floor(Math.random() * (max - min) ) + min;
+			}
+		</script>
+    </body>
+</html>

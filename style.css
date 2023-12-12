@@ -1,15 +1,21 @@
+/* Root Styles */
 * {
-  padding:0px;
-  margin:0px;
+  padding:0;
+  margin:0;
   font-family: 'Roboto', sans-serif;
   color: rgba(255,255,255,1);
   animation-name: fade;
   animation-duration: 8s;
-  
 }
+
+html, body {
+  margin: 0;
+}
+
+/* Body */
 body {
-  width:auto;
-  height:auto;
+  width: auto;
+  height: 100vh;
   background-image: linear-gradient(to bottom right, #434969, #000000);
   background-repeat: repeat;
   background-attachment: fixed;
@@ -17,13 +23,24 @@ body {
   animation-name: gradient;
   animation-duration: 6s;
 }
-.centered {
-  margin-left: auto;
-  margin-right: auto;
+
+/* Center text */
+.center {
+  margin: auto;
   width: 50%;
   text-align: center;
+  padding: 10px;
+  position: absolute;
 }
 
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Start Animation */
 @keyframes fade {
   0%{color: rgba(255,255,255,0);}
   100%{color: rgba(255,255,255,1);}
