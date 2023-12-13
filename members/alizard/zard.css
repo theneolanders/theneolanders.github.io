@@ -17,14 +17,27 @@
 body{
     background-color: var(--background);
     background-image: url("./assets/dirt.png");
-    backdrop-filter: blur(2px);
+    background-size: 50px;
+    backdrop-filter: brightness(80%);
     image-rendering: pixelated;
+    min-height: 100%;
 }
 
 /* Specific Parts */
 .header-text{
     font-family: poppins;
     padding-left: 30px;
+}
+
+.public-folder{
+    background-color: #294d5e;
+    text-align: center;
+    color: black;
+    padding: 20px;
+    margin: 0 800px;
+    outline: 0;
+    border: none;
+    cursor: pointer;
 }
 
 /* Sections */
@@ -58,4 +71,16 @@ nav{
 
 .intro{
     text-align: center;
+    min-height: 10vw;
+    margin: 10px 0px;
+}
+
+.footer-block{
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px 0px;
+}
+
+main{
+    min-height: 100%;
 }
