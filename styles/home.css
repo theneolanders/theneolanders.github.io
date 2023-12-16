@@ -1,0 +1,40 @@
+/* Root Styles */
+@font-face {
+  font-family: Rubik;
+  src: url(../assets/Fonts/Rubik-VariableFont_wght.ttf);
+}
+
+* {
+  padding:0;
+  margin:0;
+  font-family: Rubik;
+  color: rgba(255,255,255,1);
+}
+
+html, body {
+  margin: 0;
+}
+
+/* Body */
+body {
+  width: auto;
+  height: auto;
+  background-image: linear-gradient(to bottom right, #434969, #000000);
+
+}
+
+/* Center text */
+.center {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
