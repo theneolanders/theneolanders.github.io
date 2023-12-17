@@ -50,6 +50,11 @@ nav {
   font-size: auto;
 }
 
+nav.trans
+{
+  transition: width 0.5s, font-size 0.3s;
+}
+
 nav.closed
 {
   width: 64px;

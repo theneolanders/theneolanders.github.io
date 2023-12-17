@@ -9,8 +9,9 @@ if (sessionStorage.getItem("navClosed") == "true")
 else
 {
     nav.classList.remove('closed');
-
 }
+
+nav.classList.add('trans');
 
 // toggle navbar
 function toggleNavbar()
