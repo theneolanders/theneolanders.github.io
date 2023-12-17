@@ -17,24 +17,21 @@ html, body {
 
 /* Body */
 body {
-  width: auto;
-  height: auto;
-  background-image: linear-gradient(to bottom right, #434969, #000000);
-
-}
-
-/* Center text */
-.center {
-  margin: auto;
-  width: 50%;
-  text-align: center;
-  padding: 10px;
-  position: absolute;
-}
-
-.container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 100vw;
   height: 100vh;
+  background-image: linear-gradient(to bottom right, #434969, #000000);
+}
+
+/* specific elements */
+.deadspace{
+  height: 75px;
+}
+
+main{
+  margin: 0px 1%;
+}
+
+/* Sections */
+.intro-section{
+  padding-top: 10px;
 }
