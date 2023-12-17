@@ -46,11 +46,14 @@ nav {
   justify-content: center;
   z-index: 5 !important;
   display: flex;
+  transition: width 0.5s, font-size 0.1s;
+  font-size: auto;
 }
 
 nav.closed
 {
   width: 64px;
+  font-size: 0px;
 }
 
 nav.closed > ul > li.item 

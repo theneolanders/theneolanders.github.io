@@ -11,5 +11,4 @@ function toggleNavbar()
 }
 
 //todo 
-// animation
 // remember the state of the navbar between pages with localstorage
