@@ -30,3 +30,8 @@ body {
 main{
   margin: 0px 1%;
 }
+
+/* Sections */
+.intro-section{
+  padding-top: 10px;
+}
