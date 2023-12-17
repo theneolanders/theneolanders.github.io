@@ -50,7 +50,7 @@ nav {
 
 nav.trans
 {
-  transition: width 0.5s, font-size 0.3s;
+  transition: width 0.5s, font-size 0.5s, display 0.5s;
 }
 
 nav.closed
@@ -58,17 +58,6 @@ nav.closed
   width: 64px;
   font-size: 0px;
 }
-
-nav.closed > ul > li.item 
-{
-  display: none;
-}
-
-nav.closed > ul > li.item > a
-{
-  color: transparent;
-}
-
 
 .ringSpin {
   width: 32px;
