@@ -33,6 +33,7 @@ li a:hover {
   color: white;
 }
 
+/* Navigation Bar */
 nav {
   position: fixed;
   width: 99%;
@@ -47,6 +48,17 @@ nav {
   display: flex;
 }
 
+nav.closed
+{
+  width: 64px;
+}
+
+nav.closed > ul > li.item 
+{
+  display: none;
+}
+
+
 .ringSpin {
   width: 32px;
   height: 32px;
@@ -54,10 +66,15 @@ nav {
   background-size: 100%;
   border-radius: 50%;
   box-shadow: 0px 0px 0 1px rgba(255,255,0,1);
+  backdrop-filter: brightness(60%) blur(2px);
 
 }
 
 .ringSpin:hover {
   background: url(../assets/NeolandSpin.webp);
   background-size: 100%;
+}
+
+.ringholder{
+  backdrop-filter: brightness(60%) blur(2px);
 }

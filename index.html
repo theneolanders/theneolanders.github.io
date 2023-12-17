@@ -11,7 +11,6 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="./styles/home.css">
   <link rel="stylesheet" href="./styles/navigation.css">
-  <link rel="stylesheet" href="./styles/scrollbar.css">
   <link rel="stylesheet" href="./styles/general.css">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,12 +32,12 @@
 </head>
 <body>
   <!-- Navigation Bar -->
-  <nav>
+  <nav id="navbar">
     <ul>
-      <li><a href="./index.html" class="ringSpin" aria-label="Home"></a></li>
-      <li><a href="./members/index.html">Members</a></li>
-      <li><a href="./portfolio/index.html">Group Portfolio</a></li>
-      <li><a href="./info/index.html">Info</a></li>
+      <li class="ringholder"><a class="ringSpin" onclick="toggleNavbar()" aria-label="Home"></a></li>
+      <li class="item"><a href="./members/index.html">Members</a></li>
+      <li class="item"><a href="./portfolio/index.html">Group Portfolio</a></li>
+      <li class="item"><a href="./info/index.html">Info</a></li>
     </ul>
   </nav>
 
@@ -54,9 +53,11 @@
 
     <!-- Members section -->
     <section class="members-section">
-      <h1>Members section</1>
+      <h1>Members section</h1>
     </section>
   </main>
   
+  <!-- Scripts -->
+<script src="./scripts/expand_navbar.js"></script>
 </body>
 </html>
