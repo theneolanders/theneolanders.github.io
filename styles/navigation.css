@@ -46,7 +46,7 @@ nav {
   justify-content: center;
   z-index: 5 !important;
   display: flex;
-  transition: width 0.5s, font-size 0.1s;
+  transition: width 0.5s, font-size 0.3s;
   font-size: auto;
 }
 
