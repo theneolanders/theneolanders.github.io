@@ -2,7 +2,7 @@
 const nav = document.getElementById('navbar');
 
 // set state
-if (localStorage.getItem("navClosed") == "true")
+if (sessionStorage.getItem("navClosed") == "true")
 {
     nav.classList.add('closed');
 }
@@ -16,7 +16,7 @@ else
 function toggleNavbar()
 {
     nav.classList.toggle('closed');
-    localStorage.setItem("navClosed", nav.classList.contains('closed'));
+    sessionStorage.setItem("navClosed", nav.classList.contains('closed'));
 }
 
 //todo 
