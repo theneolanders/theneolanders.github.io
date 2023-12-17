@@ -74,7 +74,3 @@ nav.closed > ul > li.item
   background: url(../assets/NeolandSpin.webp);
   background-size: 100%;
 }
-
-.ringholder{
-  backdrop-filter: brightness(60%) blur(2px);
-}
