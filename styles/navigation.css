@@ -28,6 +28,13 @@ li {
   float: left;
 }
 
+@media only screen and (max-width: 600px) {
+  li {
+    font-size: 2.5vw;
+    font-weight: bolder;
+  }
+}
+
 li a:hover {
   color: white;
 }
@@ -36,7 +43,7 @@ li a:hover {
 nav {
   position: fixed;
   width: 99%;
-  left: 0.2%;
+  left: 0.3%;
   height: 64px;
   backdrop-filter: brightness(60%) blur(2px);
   border-radius: 32px;
