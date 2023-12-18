@@ -53,6 +53,7 @@ nav {
   z-index: 5 !important;
   display: flex;
   font-size: auto;
+  overflow: clip;
 }
 
 nav.trans
