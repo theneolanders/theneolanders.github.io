@@ -36,6 +36,20 @@ main{
 .intro-section{
   padding-top: 10px;
 }
+.information{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
 
+.AL{
+  background: -webkit-radial-gradient(circle, #0044ff, #00ffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-
+.Neos{
+  background: -webkit-radial-gradient(circle, yellow, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
