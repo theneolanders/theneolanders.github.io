@@ -1,5 +1,4 @@
-/* Root Styles */
-@font-face {
+/* Root Styles */@font-face {
   font-family: Rubik;
   src: url(../assets/Fonts/Rubik-VariableFont_wght.ttf);
 }
@@ -47,7 +46,7 @@ nav {
   height: 64px;
   backdrop-filter: brightness(60%) blur(2px);
   border-radius: 32px;
-  border: 1px solid rgb(255,255,0);
+  border: 1px solid rgb(255,211,2);
   top: 1%;
   justify-content: center;
   z-index: 5 !important;
