@@ -18,7 +18,8 @@ html, body {
 /* Body */
 body {
   width: 100vw;
-  height: 100%;
+  height: auto;
+  overflow-x: hidden;
   min-height: 100vw;
   background-image: linear-gradient(to bottom right, #434969, #000000);
 }
