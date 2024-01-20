@@ -30,15 +30,18 @@ body {
 }
 
 main{
-  margin: 0px 1%;
+  margin: 0px 0px;
 }
 
 /* Sections */
 .intro-section{
   padding-top: 10px;
   margin-top: 20%;
+  padding-bottom: 60%;
   text-align: center;
 }
+
+/* Members List */
 
 
 
