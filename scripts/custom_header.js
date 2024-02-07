@@ -4,7 +4,6 @@ class MyNavbar extends HTMLElement{
         this.innerHTML = 
         `
         <!--header-->
-        <link rel="stylesheet" href="http://www.theneolanders.com/styles/navigation.css">
         <nav id="navbar" class="navList">
         <ul>  
           <li class="ringholder"><a href="#" class="ringSpin" onclick="toggleNavbar(); event.preventDefault();" aria-label="Home"></a></li>
