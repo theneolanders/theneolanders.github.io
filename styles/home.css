@@ -39,7 +39,7 @@ main{
   padding-top: 20px;
   height: 750px;
   text-align: center;
-  background-image: url("../assets/HomeGallery/test_rusty.webp");
+  background-image: url("../assets/HomeGallery/test_img.webp");
   background-repeat:no-repeat;
   background-size: cover;
 }
@@ -47,13 +47,13 @@ main{
 .intro-text-area{
   width: 50%;
   margin: auto;
-  margin-top: 375px;
-  padding: 10px;
+  padding-top: 375px;
   font-size: larger;
+  text-shadow: 1px 1px 2px black;
 }
 
 .backdrop-blur{
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(8px);
   height: 100%;
   width: 100%;
 }
