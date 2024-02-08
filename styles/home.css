@@ -27,7 +27,7 @@ body {
 
 /* specific elements */
 .deadspace{
-  height: 80px;
+  height: 100px;
 }
 
 main{
@@ -36,28 +36,15 @@ main{
 
 /* Intro */
 .intro-section{
-  padding-top: 20px;
-  height: 750px;
   text-align: center;
-  background-image: url("../assets/HomeGallery/test_img.webp");
   background-repeat:no-repeat;
   background-size: cover;
 }
 
-.intro-text-area{
-  width: 50%;
-  margin: auto;
-  text-align: center;
-  padding-top: 340px;
-  font-size: x-large;
-  text-shadow: 1px 1px 2px black;
+.intro-text{
+  font-size: larger;
 }
 
-.backdrop-blur{
-  backdrop-filter: blur(8px);
-  height: 100%;
-  width: 100%;
-}
 
 /* Members List */
 
