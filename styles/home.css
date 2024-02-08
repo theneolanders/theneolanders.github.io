@@ -47,8 +47,9 @@ main{
 .intro-text-area{
   width: 50%;
   margin: auto;
-  padding-top: 375px;
-  font-size: larger;
+  text-align: center;
+  padding-top: 340px;
+  font-size: x-large;
   text-shadow: 1px 1px 2px black;
 }
 
