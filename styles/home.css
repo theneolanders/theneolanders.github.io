@@ -48,5 +48,16 @@ main{
 
 /* Members List */
 
+.member-block{
+  background-color: #252525;
+  padding: 1rem 2rem;
+  text-align: left;
+  width: 100%;
+}
+
+.member-block-part{
+  display: inline-block;
+  vertical-align: text-top;
+}
 
 
