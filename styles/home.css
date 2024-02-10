@@ -66,19 +66,26 @@ main{
 }
 
 .left {
-  width: 50%;
+  width: 70%;
 }
 
 .right {
-  width: 50%;
+  width: 30%;
   text-align: right;
 }
 
-
+.member-photo{
+  width: 22vw
+}
 
 .member-name-text{
   padding-top: 2%;
   font-size: 5vw;
   font-weight: bold;
+}
+
+.member-bio-text{
+  padding-top: 2%;
+  font-size: larger;
 }
 
