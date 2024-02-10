@@ -48,34 +48,28 @@ main{
 
 /* Members List */
 
-.member-block{
-  background-color: #252525;
-  white-space: nowrap;
+.column {
+  float: left;
+  width: 33.33%;
 }
 
-.member-block-padding{
-  padding: 10px 1%;
+.row{
+  padding: 1% 3%;
 }
 
-.member-block-part-left{
-  display: inline-block;
-  vertical-align: text-top;
-  text-align: left;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
   width: 50%;
+  text-align: center;
+  margin-top: 10px;
 }
 
-.member-block-part-right{
-  display: inline-block;
-  vertical-align: text-top;
-  text-align: right;
-  width: 50%;
-}
-
-.member-block-text-area{
-  
-}
-
-.member-block-text-name{
-  font-size: 3.5em;
-  font-weight: bold;
-}
