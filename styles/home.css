@@ -50,14 +50,32 @@ main{
 
 .member-block{
   background-color: #252525;
-  padding: 1rem 2rem;
-  text-align: left;
-  width: 100%;
+  white-space: nowrap;
 }
 
-.member-block-part{
+.member-block-padding{
+  padding: 10px 1%;
+}
+
+.member-block-part-left{
   display: inline-block;
   vertical-align: text-top;
+  text-align: left;
+  width: 50%;
 }
 
+.member-block-part-right{
+  display: inline-block;
+  vertical-align: text-top;
+  text-align: right;
+  width: 50%;
+}
 
+.member-block-text-area{
+  
+}
+
+.member-block-text-name{
+  font-size: 3.5em;
+  font-weight: bold;
+}
