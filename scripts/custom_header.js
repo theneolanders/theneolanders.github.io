@@ -10,6 +10,7 @@ class MyNavbar extends HTMLElement{
           <li class="item"><a href="https://www.theneolanders.com/">Home</a></li>
           <li class="item"><a href="https://www.theneolanders.com/portfolio/">Group Portfolio</a></li>
           <li class="item"><a href="https://www.theneolanders.com/info/">Info</a></li>
+          <li class="item"><a href-"https://www.theneolanders.com/neolanders-wiki">Knowledge Vault</a></li>
         </ul>
       </nav> 
         `;
