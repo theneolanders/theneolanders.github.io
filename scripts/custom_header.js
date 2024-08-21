@@ -8,7 +8,7 @@ class MyNavbar extends HTMLElement{
         <ul>  
           <li class="ringholder"><a href="#" class="ringSpin" onclick="toggleNavbar(); event.preventDefault();" aria-label="Home"></a></li>
           <li class="item"><a href="https://www.theneolanders.com/">Home</a></li>
-          <li class="item"><a href="https://www.theneolanders.com/portfolio/">Group Portfolio</a></li>
+          <li class="item"><a href="https://www.theneolanders.com/neolanders-wiki/Neolander-Information/Group-Portfolio">Group Portfolio</a></li>
           <li class="item"><a href="https://www.theneolanders.com/info/">Info</a></li>
           <li class="item"><a href="https://www.theneolanders.com/neolanders-wiki">Knowledge Vault</a></li>
         </ul>
