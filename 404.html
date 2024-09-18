@@ -64,9 +64,24 @@
 			const sources = ["https://www.theneolanders.com/assets/404/Neolanders_404.webp", "https://www.theneolanders.com/assets/404/Neolanders_404-2.webp"];
 			image.src = sources[getRndInteger(0,sources.length)];
 			
-			function getRndInteger(min, max) {
+			function getRndInteger(min, max) 
+            {
 				return Math.floor(Math.random() * (max - min) ) + min;
 			}
 		</script>
+
+        <script>
+            function getCurrentPath () 
+            {
+                return window.location.pathname
+            }
+
+            const path = getCurrentPath()
+            if (path.includes("neolanders-wiki"))
+            {   
+                window.location.replace("https://www.theneolanders.com/wiki/");
+            }
+
+        </script>
     </body>
 </html>
