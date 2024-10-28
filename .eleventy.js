@@ -1,5 +1,8 @@
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("CNAME");
+    eleventyConfig.addPassthroughCopy("./src/assets");
+    eleventyConfig.addPassthroughCopy("./src/css");
+    eleventyConfig.addWatchTarget("./src/assets");
     return {
         dir: {
             input: 'src',
