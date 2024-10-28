@@ -1,0 +1,45 @@
+/* Root Styles */
+@font-face {
+    font-family: Rubik;
+    src: url(../assets/Fonts/Rubik-VariableFont_wght.ttf);
+  }
+  
+  html, body {
+    margin: 0;
+  }
+  
+  /* Body */
+  body {
+    width: 100vw;
+    height: 100%;
+    overflow-x: hidden;
+    min-height: 100vw;
+  }
+  
+  /* specific elements */
+  .deadspace{
+    height: 75px;
+  }
+  
+  
+  /* Sections */
+  .intro-section{
+    padding-top: 10px;
+  }
+  .information{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .AL{
+    background: -webkit-radial-gradient(circle, #0044ff, #00ffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .Neos{
+    background: -webkit-radial-gradient(circle, yellow, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
