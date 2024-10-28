@@ -1,0 +1,23 @@
+<header class="header">
+    <a href="/index" class="logo">Neil</a>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../info.html">About</a></li>
+        <li><a href="https://www.theneolanders.com/wiki/">Wiki</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger">
+      <button class="hamburger-button" onclick="toggleMobileMenu()">☰</button>
+      <ul id="mobile-menu" class="mobile-menu">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../info.html">About</a></li>
+        <li><a href="https://www.theneolanders.com/wiki/">Wiki</a></li>
+      </ul>
+    </div>
+    <script>
+      function toggleMobileMenu() {
+        document.getElementById("mobile-menu").classList.toggle('open');
+      }
+    </script>
+</header>
