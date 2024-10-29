@@ -46,13 +46,21 @@ ul a {
 
 /* mobile stuff */
 @media only screen and (max-width: 600px) {
-    header nav {
+    header nav 
+    {
         display: none;
+    }
+
+    ul li
+    {
+        margin-left: 0;
+        margin-top: 5px;
     }
 }
 
 @media only screen and (min-width: 600px) {
-    .hamburger {
+    .hamburger 
+    {
         display: none;
     }
 }
