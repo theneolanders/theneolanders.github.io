@@ -1,18 +1,20 @@
-<nav class="navbar">
+<nav class="navbar" id="navbar">
   <a href="javascript:void(0);" class="toggle-button" onclick="toggleMenu()">
-    <img src="../assets/logo.svg" height="50">
+    <img src="../assets/logo.svg" height="50" class="logo" id="logo">
   </a>
   <div class="navbar-links" id="navbar-links">
       <ul>
           <li><a href="/index">Home</a></li>
           <li><a href="/history">About</a></li>
+          <li><a href="https://www.theneolanders.com/wiki/">Wiki</a></li>
       </ul>
   </div>
   <script>
     function toggleMenu() {
         var navbarLinks = document.getElementById("navbar-links");
+        var navbar = document.getElementById("navbar")
+        navbar.classList.toggle("open");
         navbarLinks.classList.toggle("active");
-        console.log("shit")
     }
 </script>
 </nav>
