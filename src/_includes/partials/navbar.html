@@ -1,23 +1,18 @@
-<header class="header">
-    <a href="/index" class="logo">Neil</a>
-    <nav>
+<nav class="navbar">
+  <a href="javascript:void(0);" class="toggle-button" onclick="toggleMenu()">
+    <img src="../assets/logo.svg" height="50">
+  </a>
+  <div class="navbar-links" id="navbar-links">
       <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../history">About</a></li>
-        <li><a href="https://www.theneolanders.com/wiki/">Wiki</a></li>
+          <li><a href="/index">Home</a></li>
+          <li><a href="/history">About</a></li>
       </ul>
-    </nav>
-    <div class="hamburger">
-      <button class="hamburger-button" onclick="toggleMobileMenu()">☰</button>
-      <ul id="mobile-menu" class="mobile-menu">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../history.html">About</a></li>
-        <li><a href="https://www.theneolanders.com/wiki/">Wiki</a></li>
-      </ul>
-    </div>
-    <script>
-      function toggleMobileMenu() {
-        document.getElementById("mobile-menu").classList.toggle('open');
-      }
-    </script>
-</header>
+  </div>
+  <script>
+    function toggleMenu() {
+        var navbarLinks = document.getElementById("navbar-links");
+        navbarLinks.classList.toggle("active");
+        console.log("shit")
+    }
+</script>
+</nav>
