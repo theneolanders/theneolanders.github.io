@@ -1,22 +1,25 @@
 {
     "content": [
     {
-        "name"  : "Save The Ring",
-        "bio"   : "Our MMC22 map",
-        "link"  : "",
-        "image" : ""
+        "name"      : "Save The Ring",
+        "bio"       : "Our MMC24 map",
+        "link"      : "",
+        "image"     : "../assets/200x200.png",
+        "alttext"  : "debug image"
     },
     {
-        "name"  : "Our History",
-        "bio"   : "Where we come from",
-        "link"  : "",
-        "image" : ""
+        "name"      : "Our History",
+        "bio"       : "Where we come from",
+        "link"      : "",
+        "image"     : "../assets/200x200.png",
+        "alttext"  : "debug image"
     },
     {
-        "name"  : "Wiki",
-        "bio"   : "Our character lore and docs",
-        "link"  : "https://www.theneolanders.com/wiki/",
-        "image" : ""
+        "name"      : "Wiki",
+        "bio"       : "Our character lore and docs",
+        "link"      : "https://www.theneolanders.com/wiki/",
+        "image"     : "../assets/200x200.png",
+        "alttext"  : "debug image"
     }
 ]
 }   

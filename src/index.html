@@ -20,7 +20,7 @@ pagination:
             {%- for item in pagination.items -%}
                 <li class="content-cube">
                     <div>
-                        <img src="{{item.image}}">
+                        <img src="{{item.image}}" alt="{{item.alttext}}">
                         <a href="{{item.link}}"><h2>{{item.name}}</h2></a>
                         <p>{{item.bio}}</p>
                     </div>
