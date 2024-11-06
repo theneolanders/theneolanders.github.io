@@ -2,6 +2,10 @@
 title: "Neolanders | Home"
 description: "Welcome to The Neolanders website!"
 layout: layouts/base.html
+
+pagination:
+    data: things.content
+    size: 2
 ---
 <link rel="stylesheet" href="../css/home.css">
 <main>
@@ -11,8 +15,8 @@ layout: layouts/base.html
     <p>Check out the info page for our group's history, or explore the wiki for content about The Ringleaders!</p>
     <!--Our Things-->
     <div class="content-scroll">
-        {%- for content in things -%}
-            <h1>hi</h1>
+        {%- for item in pagination.items -%}
+            <li>{{item.name}}</li>
         {%- endfor -%}
     </div>
 </main>

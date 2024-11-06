@@ -1,3 +1,11 @@
 {
-    "content": ["1", "2"]
+    "content": [
+    {
+        "name"  : "Save The Ring",
+        "bio"   : "Our MMC22 map"
+    },
+    {
+        "name"  : "Our History",
+        "bio"   : "Where we cpme from"
+    }]
 }   
