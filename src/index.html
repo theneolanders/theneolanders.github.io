@@ -5,7 +5,7 @@ layout: layouts/base.html
 
 pagination:
     data: things.content
-    size: 2
+    size: 3
 ---
 <link rel="stylesheet" href="../css/home.css">
 <main>
@@ -14,9 +14,18 @@ pagination:
     <h1>We are The Neolanders</h1>
     <p>Check out the info page for our group's history, or explore the wiki for content about The Ringleaders!</p>
     <!--Our Things-->
-    <div class="content-scroll">
-        {%- for item in pagination.items -%}
-            <li>{{item.name}}</li>
-        {%- endfor -%}
+    <div class="our-things content-scroll-parent">
+        <h1>Our Things</h1>
+        <ul class="content-scroll">
+            {%- for item in pagination.items -%}
+                <li class="content-cube">
+                    <div>
+                        <img src="{{item.image}}">
+                        <a href="{{item.link}}"><h2>{{item.name}}</h2></a>
+                        <p>{{item.bio}}</p>
+                    </div>
+                </li>
+            {%- endfor -%}
+        </ul>
     </div>
 </main>

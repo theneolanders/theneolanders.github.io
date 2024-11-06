@@ -2,10 +2,21 @@
     "content": [
     {
         "name"  : "Save The Ring",
-        "bio"   : "Our MMC22 map"
+        "bio"   : "Our MMC22 map",
+        "link"  : "",
+        "image" : ""
     },
     {
         "name"  : "Our History",
-        "bio"   : "Where we cpme from"
-    }]
+        "bio"   : "Where we come from",
+        "link"  : "",
+        "image" : ""
+    },
+    {
+        "name"  : "Wiki",
+        "bio"   : "Our character lore and docs",
+        "link"  : "https://www.theneolanders.com/wiki/",
+        "image" : ""
+    }
+]
 }   

@@ -3,12 +3,26 @@ main
     text-align: center;
 }
 
-.content-cube
+/* Content scrollers*/
+.content-scroll-parent
 {
-    
+    margin-top: 15px;
+    padding: 5px;
+    width: 100%;
+    text-align: left;
 }
 
 .content-scroll
 {
+    margin: 5px 10px;
+    list-style: none;
+    overflow-x: scroll;
+}
 
+.content-cube
+{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin: 5px;
 }
