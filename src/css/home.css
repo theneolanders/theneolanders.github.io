@@ -3,6 +3,13 @@ main
     text-align: center;
 }
 
+/* Intro area */
+.intro-text-area
+{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
 /* Content scrollers*/
 .content-scroll-parent
 {
@@ -26,4 +33,9 @@ main
     width: 200px;
     display: inline-block;
     margin: 5px;
+}
+
+.content-cube img
+{
+    border-radius: 10px;
 }

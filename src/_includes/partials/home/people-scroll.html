@@ -1,0 +1,13 @@
+<div class="our-things content-scroll-parent">
+    <h1>Our People</h1>
+    <ul class="content-scroll">
+        {%- for item in people -%}
+            <li class="content-cube">
+                <div>
+                    <a href="{{item.link}}"><img src="{{item.image}}" width="200" height="200"></a>
+                    <a href="{{item.link}}"><h2>{{item.name}}</h2></a>
+                </div>
+            </li>
+        {%- endfor -%}
+    </ul>
+</div>

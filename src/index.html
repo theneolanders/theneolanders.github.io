@@ -2,30 +2,30 @@
 title: "Neolanders | Home"
 description: "Welcome to The Neolanders website!"
 layout: layouts/base.html
-
+tags: home
 pagination:
     data: things.content
     size: 4
+    alias: things
+people:
+    - 
+        name: alizard
+        image: ../assets/people_icons/alizard.png
+    -
+        name: Rustybot
+        image: ../assets/people_icons/Rustybot.png
 ---
 <link rel="stylesheet" href="../css/home.css">
 <main>
     {% include "partials/navbar.html" %}
     <!--Intro-->
-    <h1>We are The Neolanders</h1>
-    <p>Check out the info page for our group's history, or explore the wiki for content about The Ringleaders!</p>
-    <!--Our Things-->
-    <div class="our-things content-scroll-parent">
-        <h1>Our Things</h1>
-        <ul class="content-scroll">
-            {%- for item in pagination.items -%}
-                <li class="content-cube">
-                    <div>
-                        <img src="{{item.image}}" alt="{{item.alttext}}" width="200" height="200">
-                        <a href="{{item.link}}"><h2>{{item.name}}</h2></a>
-                        <p>{{item.bio}}</p>
-                    </div>
-                </li>
-            {%- endfor -%}
-        </ul>
+    <div class="intro-text-area">
+        <h1>We are The Neolanders</h1>
+        <p>Check out the info page for our group's history, or explore the wiki for content about The Ringleaders!</p>
     </div>
+    <!--Our Things-->
+    {% include "partials/home/content-scroll.html" %}
+    <!--Our People-->
+    {% include "partials/home/people-scroll.html" %}
+    
 </main>
