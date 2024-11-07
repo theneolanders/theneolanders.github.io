@@ -3,12 +3,27 @@
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem;
-    backdrop-filter: brightness(60%) blur(2px);
+    background-color: #535a7752;
+    backdrop-filter: brightness(25%) blur(10px);
     border-radius: 32px;
     z-index: 5 !important;
     margin: 10px 5px;
     width: 260px;
     position: fixed;
+}
+
+@media (min-width: 768px)
+{
+    .navbar
+    {
+        padding-right: 20px;
+        padding-left: 15px;
+    }
+
+    .logo
+    {
+        margin-right: 5px;
+    }
 }
 
 .navbar-links 
@@ -19,6 +34,7 @@
 .logo
 {   
     text-align: center;
+    width: 40px;
 }
 
 .navbar-links ul {
@@ -33,7 +49,8 @@
 }
 
 .navbar-links ul li a {
-    color: rgb(255,255,0);
+    color: #9EE3EF;
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -60,7 +77,7 @@
     .navbar {
         flex-direction: column;
         align-items: flex-start;
-        width: 50px;
+        width: 45px;
         transition: width 0.5s ease-in-out;
         margin: 0px 0px;
     }
@@ -68,7 +85,7 @@
     .navbar.open {
         flex-direction: column;
         align-items: flex-start;
-        width: 100%;
+        width: 96%;
     }
 
     .navbar-links {
@@ -89,5 +106,10 @@
         width: 100%;
         text-align: center;
         padding: 1rem 0;
+    }
+
+    .logo
+    {
+        width: unset;
     }
 }
