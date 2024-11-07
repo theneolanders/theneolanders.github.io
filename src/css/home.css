@@ -19,6 +19,11 @@ main
     text-align: left;
 }
 
+.content-scroll-parent a
+{
+    text-decoration: none;
+}
+
 .content-scroll
 {
     margin: 5px 10px;
@@ -38,4 +43,9 @@ main
 .content-cube img
 {
     border-radius: 10px;
+}
+
+.content-cube a
+{
+    text-decoration: none;
 }

@@ -12,7 +12,7 @@
         "bio"       : "Where we come from",
         "link"      : "../history",
         "image"     : "../assets/things_icons/PlanetoidsCover512.png",
-        "alttext"  : "debug image"
+        "alttext"  : "The sun rising over the moon"
     },
     {
         "name"      : "Wiki",
@@ -22,16 +22,11 @@
         "alttext"  : "debug image"
     },
     {
-        "name"      : "Test",
-        "bio"       : "Test object",
-        "link"      : "",
-        "image"     : "../assets/200x200.png",
-        "alttext"  : "debug image"
+        "name"      : "The Ring",
+        "bio"       : "Our home world",
+        "link"      : "../projects/the_ring",
+        "image"     : "../assets/things_icons/SaveTheRing512icon.png",
+        "alttext"  : "A ring shaped space station"
     }
-],
-    "people" : [
-        {
-            "name"  : "alizard"
-        }
-    ]
+]
 }   
