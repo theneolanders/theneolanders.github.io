@@ -3,12 +3,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem;
-    border: 1px solid rgb(255,255,0);
     backdrop-filter: brightness(60%) blur(2px);
     border-radius: 32px;
     z-index: 5 !important;
     margin: 10px 5px;
     width: 260px;
+    position: fixed;
 }
 
 .navbar-links 
