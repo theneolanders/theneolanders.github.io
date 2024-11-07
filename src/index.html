@@ -5,7 +5,7 @@ layout: layouts/base.html
 
 pagination:
     data: things.content
-    size: 3
+    size: 4
 ---
 <link rel="stylesheet" href="../css/home.css">
 <main>
@@ -20,7 +20,7 @@ pagination:
             {%- for item in pagination.items -%}
                 <li class="content-cube">
                     <div>
-                        <img src="{{item.image}}" alt="{{item.alttext}}">
+                        <img src="{{item.image}}" alt="{{item.alttext}}" width="200" height="200">
                         <a href="{{item.link}}"><h2>{{item.name}}</h2></a>
                         <p>{{item.bio}}</p>
                     </div>

@@ -4,13 +4,20 @@
         "name"      : "Save The Ring",
         "bio"       : "Our MMC24 map",
         "link"      : "",
-        "image"     : "../assets/200x200.png",
-        "alttext"  : "debug image"
+        "image"     : "../assets/things_icons/SaveTheRing512icon.png",
+        "alttext"  : "A ring shaped space station"
     },
     {
         "name"      : "Our History",
         "bio"       : "Where we come from",
         "link"      : "",
+        "image"     : "../assets/things_icons/PlanetoidsCover512.png",
+        "alttext"  : "debug image"
+    },
+    {
+        "name"      : "Wiki",
+        "bio"       : "Everything about us",
+        "link"      : "https://www.theneolanders.com/wiki/",
         "image"     : "../assets/200x200.png",
         "alttext"  : "debug image"
     },

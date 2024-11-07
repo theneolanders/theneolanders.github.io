@@ -8,4 +8,10 @@
 body 
 {
     background-color: #05070f;
+    font-family: Rubik;
 }
+
+@font-face {
+    font-family: Rubik;
+    src: url("../assets/fonts/Rubik-VariableFont_wght.ttf");
+} 

@@ -17,6 +17,7 @@ main
     margin: 5px 10px;
     list-style: none;
     overflow-x: scroll;
+    white-space: nowrap;
 }
 
 .content-cube
