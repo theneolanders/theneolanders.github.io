@@ -18,8 +18,8 @@
         "name"      : "Wiki",
         "bio"       : "Everything about us",
         "link"      : "https://www.theneolanders.com/wiki/",
-        "image"     : "../assets/200x200.png",
-        "alttext"  : "debug image"
+        "image"     : "../assets/things_icons/steward_reading.webp",
+        "alttext"  : "A small grey robot reading a book"
     },
     {
         "name"      : "The Ring",
