@@ -25,7 +25,7 @@
         "name"      : "The Ring",
         "bio"       : "Our home world",
         "link"      : "../projects/the_ring",
-        "image"     : "../assets/things_icons/SaveTheRing512icon.png",
+        "image"     : "../assets/world_photos/apartments.webp",
         "alttext"  : "A ring shaped space station"
     }
 ]
