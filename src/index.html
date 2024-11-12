@@ -14,6 +14,19 @@ people:
     -
         name: Rustybot
         image: ../assets/people_icons/Rustybot.png
+socials:
+    -   name: Bluesky
+        image: ../assets/logos/socials/blueskylogo.jpg
+        bio: Updates
+        link: https://bsky.app/profile/theneolanders.com
+    -   name: YouTube
+        image: ../assets/logos/socials/youtubelogo.png
+        bio: Our videos
+        link: https://www.youtube.com/@TheNeolanders
+    -   name: Github
+        image: ../assets/logos/socials/githublogo.png
+        bio: Site code and projects
+        link: https://github.com/theneolanders
 ---
 <link rel="stylesheet" href="../css/home.css">
 <main>
@@ -25,6 +38,8 @@ people:
     </div>
     <!--Our Things-->
     {% include "partials/home/content-scroll.html" %}
+    <!-- Social medias -->
+    {% include "partials/home/socialmedia-scroll.html" %}
     <!--Our People-->
     <!--{% include "partials/home/people-scroll.html" %}-->
 </main>
