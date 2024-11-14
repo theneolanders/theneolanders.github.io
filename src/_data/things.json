@@ -1,0 +1,32 @@
+{
+    "content": [
+    {
+        "name"      : "Save The Ring",
+        "bio"       : "Our MMC24 map",
+        "link"      : "https://www.theneolanders.com/wiki/Neolander-Information/Group-Portfolio#save-the-ring",
+        "image"     : "../assets/things_icons/SaveTheRing512icon.png",
+        "alttext"  : "A ring shaped space station"
+    },
+    {
+        "name"      : "Our History",
+        "bio"       : "Where we come from",
+        "link"      : "../history",
+        "image"     : "../assets/things_icons/PlanetoidsCover512.png",
+        "alttext"  : "The sun rising over the moon"
+    },
+    {
+        "name"      : "Wiki",
+        "bio"       : "Everything about us",
+        "link"      : "https://www.theneolanders.com/wiki/",
+        "image"     : "../assets/things_icons/steward_reading.webp",
+        "alttext"  : "A small grey robot reading a book"
+    },
+    {
+        "name"      : "The Ring",
+        "bio"       : "Our home world",
+        "link"      : "../projects/the_ring",
+        "image"     : "../assets/world_photos/apartments.webp",
+        "alttext"  : "A ring shaped space station"
+    }
+]
+}   

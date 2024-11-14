@@ -1,0 +1,45 @@
+---
+title: "Neolanders | Home"
+description: "Welcome to The Neolanders website!"
+layout: layouts/base.html
+tags: home
+pagination:
+    data: things.content
+    size: 4
+    alias: things
+people:
+    - 
+        name: alizard
+        image: ../assets/people_icons/alizard.png
+    -
+        name: Rustybot
+        image: ../assets/people_icons/Rustybot.png
+socials:
+    -   name: Bluesky
+        image: ../assets/logos/socials/blueskylogo.jpg
+        bio: Updates
+        link: https://bsky.app/profile/theneolanders.com
+    -   name: YouTube
+        image: ../assets/logos/socials/youtubelogo.png
+        bio: Our videos
+        link: https://www.youtube.com/@TheNeolanders
+    -   name: Github
+        image: ../assets/logos/socials/githublogo.png
+        bio: Site code and projects
+        link: https://github.com/theneolanders
+---
+<link rel="stylesheet" href="../css/home.css">
+<main>
+    {% include "partials/navbar.html" %}
+    <!--Intro-->
+    <div class="intro-text-area">
+        <h1>We are The Neolanders</h1>
+        <p>Check out the info page for our group's history, or explore the wiki for content about The Ringleaders!</p>
+    </div>
+    <!--Our Things-->
+    {% include "partials/home/content-scroll.html" %}
+    <!-- Social medias -->
+    {% include "partials/home/socialmedia-scroll.html" %}
+    <!--Our People-->
+    <!--{% include "partials/home/people-scroll.html" %}-->
+</main>

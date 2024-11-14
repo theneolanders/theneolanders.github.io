@@ -1,0 +1,54 @@
+main
+{
+    text-align: center;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Intro area */
+.intro-text-area
+{
+    padding-top: 90px;
+    padding-bottom: 35px;
+}
+
+/* Content scrollers*/
+.content-scroll-parent
+{
+    margin-top: 15px;
+    padding: 5px;
+    width: 100%;
+    text-align: left;
+}
+
+.content-scroll-parent a
+{
+    text-decoration: none;
+}
+
+.content-scroll
+{
+    margin: 5px 10px;
+    list-style: none;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.content-cube
+{
+    height: 250px;
+    width: 200px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.content-cube img
+{
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.content-cube a
+{
+    text-decoration: none;
+}
