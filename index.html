@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Page Setup Data-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, inital-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/../assets/neoland_favicon.ico">
+
+<!--Page Info-->
+<title>Neolanders | Home</title>
+<meta name="description" content="Welcome to The Neolanders website!">
+<meta name="author" content="The Neolanders">
+
+<!--Base Style Links-->
+<link rel="stylesheet" href="/../css/navbar.css">
+    <link rel="stylesheet" href="/../css/base.css">
+</head>
+<body>
+    <link rel="stylesheet" href="../css/home.css">
+<main>
+    <nav class="navbar" id="navbar">
+  <a href="javascript:void(0);" class="toggle-button" onclick="toggleMenu()">
+    <img src="/../assets/logo.svg" height="50" class="logo" id="logo">
+  </a>
+  <div class="navbar-links" id="navbar-links">
+      <ul>
+          <li><a href="/index">Home</a></li>
+          <li><a href="/history">About</a></li>
+          <li><a href="https://www.theneolanders.com/wiki/">Wiki</a></li>
+      </ul>
+  </div>
+  <script>
+    function toggleMenu() {
+        var navbarLinks = document.getElementById("navbar-links");
+        var navbar = document.getElementById("navbar")
+        navbar.classList.toggle("open");
+        navbarLinks.classList.toggle("active");
+    }
+</script>
+</nav>
+    <!--Intro-->
+    <div class="intro-text-area">
+        <h1>We are The Neolanders</h1>
+        <p>Check out the info page for our group's history, or explore the wiki for content about The Ringleaders!</p>
+    </div>
+    <!--Our Things-->
+    <div class="our-things content-scroll-parent">
+    <a href ="../things"><h1>Our Things</h1></a>
+    <ul class="content-scroll"><li class="content-cube">
+                <div>
+                    <a href="https://www.theneolanders.com/wiki/Neolander-Information/Group-Portfolio#save-the-ring"><img src="../assets/things_icons/SaveTheRing512icon.png" alt="A ring shaped space station" width="200" height="200"></a>
+                    <a href="https://www.theneolanders.com/wiki/Neolander-Information/Group-Portfolio#save-the-ring"><h2>Save The Ring</h2></a>
+                    <p>Our MMC24 map</p>
+                </div>
+            </li><li class="content-cube">
+                <div>
+                    <a href="../history"><img src="../assets/things_icons/PlanetoidsCover512.png" alt="The sun rising over the moon" width="200" height="200"></a>
+                    <a href="../history"><h2>Our History</h2></a>
+                    <p>Where we come from</p>
+                </div>
+            </li><li class="content-cube">
+                <div>
+                    <a href="https://www.theneolanders.com/wiki/"><img src="../assets/things_icons/steward_reading.webp" alt="A small grey robot reading a book" width="200" height="200"></a>
+                    <a href="https://www.theneolanders.com/wiki/"><h2>Wiki</h2></a>
+                    <p>Everything about us</p>
+                </div>
+            </li><li class="content-cube">
+                <div>
+                    <a href="../projects/the_ring"><img src="../assets/world_photos/apartments.webp" alt="A ring shaped space station" width="200" height="200"></a>
+                    <a href="../projects/the_ring"><h2>The Ring</h2></a>
+                    <p>Our home world</p>
+                </div>
+            </li></ul>
+</div>
+    <!-- Social medias -->
+    <div class="our-things content-scroll-parent">
+    <a href ="../things"><h1>Our Socials</h1></a>
+    <ul class="content-scroll"><li class="content-cube">
+                <div>
+                    <a href="https://bsky.app/profile/theneolanders.com"><img src="../assets/logos/socials/blueskylogo.jpg" alt="" width="200" height="200"></a>
+                    <a href="https://bsky.app/profile/theneolanders.com"><h2>Bluesky</h2></a>
+                    <p>Updates</p>
+                </div>
+            </li><li class="content-cube">
+                <div>
+                    <a href="https://www.youtube.com/@TheNeolanders"><img src="../assets/logos/socials/youtubelogo.png" alt="" width="200" height="200"></a>
+                    <a href="https://www.youtube.com/@TheNeolanders"><h2>YouTube</h2></a>
+                    <p>Our videos</p>
+                </div>
+            </li><li class="content-cube">
+                <div>
+                    <a href="https://github.com/theneolanders"><img src="../assets/logos/socials/githublogo.png" alt="" width="200" height="200"></a>
+                    <a href="https://github.com/theneolanders"><h2>Github</h2></a>
+                    <p>Site code and projects</p>
+                </div>
+            </li></ul>
+</div>
+    <!--Our People-->
+    <!--<div class="our-things content-scroll-parent">
+    <a href="../people"><h1>Our People</h1></a>
+    <ul class="content-scroll"><li class="content-cube">
+                <div>
+                    <a href=""><img src="../assets/people_icons/alizard.png" width="200" height="200"></a>
+                    <a href=""><h2>alizard</h2></a>
+                </div>
+            </li><li class="content-cube">
+                <div>
+                    <a href=""><img src="../assets/people_icons/Rustybot.png" width="200" height="200"></a>
+                    <a href=""><h2>Rustybot</h2></a>
+                </div>
+            </li></ul>
+</div>-->
+</main>
+</body>
+</html>
