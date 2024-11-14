@@ -1,6 +1,8 @@
 name: Eleventy Build
 on: [push]
 
+permissions: write-all
+
 jobs:
   build_deploy:
     runs-on: ubuntu-22.04
