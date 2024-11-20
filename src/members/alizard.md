@@ -9,3 +9,5 @@ layout: layouts/member.html
 #### :)
 ##### smile
 ###### h6 looks bad
+
+![image](/../assets/200x200.png)
