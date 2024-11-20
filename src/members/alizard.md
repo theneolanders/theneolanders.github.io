@@ -8,3 +8,4 @@ layout: layouts/member.html
 ### and I think that is cool
 #### :)
 ##### smile
+###### h6 looks bad
