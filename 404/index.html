@@ -1,0 +1,91 @@
+<html lang="en-US">
+    <head>
+        <!-- Main -->
+        <title>404 Not Found</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="page not found!">
+
+          <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Page Not Found!">
+        <meta name="twitter:description" content="error 404">
+        <meta name="twitter:image" content="https://www.theneolanders.com/assets/NeolandStatic.webp">
+
+        
+        <!-- Open Graph Meta Tags -->
+        <meta property="og:title" content="The Neolanders | 404" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.theneolanders.com/404.html" />
+        <meta property="og:image" content="https://www.theneolanders.com/assets/NeolandStatic.webp" />
+        <meta property="og:description" content="error 404, page not found!" />
+        <meta property="og:site_name" content="The Neolanders" />
+
+        <!-- Style -->
+        <style>
+            *{
+                padding:0;
+                margin:0;
+                overflow-y: hidden;
+                -ms-overflow-style: none; /* for Internet Explorer, Edge */
+                scrollbar-width: none; /* for Firefox */
+            }
+
+            .center{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                width: 100vw;
+                position: relative;
+                pointer-events: none;
+                user-select: none;
+            }
+
+            @media screen and (min-width: 972px) {
+                .center{    
+                    width: 70%;
+                }
+            }
+        </style>
+		
+		
+    </head>
+    <body>
+        <nav class="navbar" id="navbar">
+  <a href="javascript:void(0);" class="toggle-button" onclick="toggleMenu()">
+    <img src="/../assets/logo.svg" height="50" class="logo" id="logo">
+  </a>
+  <div class="navbar-links" id="navbar-links">
+      <ul>
+          <li><a href="/index">Home</a></li>
+          <li><a href="/history">About</a></li>
+          <li><a href="https://www.theneolanders.com/wiki/">Wiki</a></li>
+      </ul>
+  </div>
+  <script>
+    function toggleMenu() {
+        var navbarLinks = document.getElementById("navbar-links");
+        var navbar = document.getElementById("navbar")
+        navbar.classList.toggle("open");
+        navbarLinks.classList.toggle("active");
+    }
+</script>
+</nav>
+        <main>
+            <div class="center">
+                <img id="imgDisplay" alt="error 404, page not found" src="https://www.theneolanders.com/assets/404/Neolanders_404.webp" class="center">
+            </div>
+        </main>
+		
+		<script>
+			const image = document.getElementById("imgDisplay");
+			const sources = ["https://www.theneolanders.com/assets/404/Neolanders_404.webp", "https://www.theneolanders.com/assets/404/Neolanders_404-2.webp"];
+			image.src = sources[getRndInteger(0,sources.length)];
+			
+			function getRndInteger(min, max) {
+				return Math.floor(Math.random() * (max - min) ) + min;
+			}
+		</script>
+    </body>
+</html>
