@@ -1,58 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Page Setup Data-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, inital-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/../assets/neoland_favicon.ico">
 
-<html lang="en-US">
-    <head>
-        <!-- Main -->
-        <title>404: Page Not Found</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="page not found!">
+<!--Page Info-->
+<title>404</title>
+<meta name="description" content="Page Not Found!">
+<meta name="author" content="The Neolanders">
 
-          <!-- Twitter Meta Tags -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Page Not Found!">
-        <meta name="twitter:description" content="error 404">
-        <meta name="twitter:image" content="https://www.theneolanders.com/assets/NeolandStatic.webp">
-
+<!--Base Style Links-->
+<link rel="stylesheet" href="/../css/navbar.css">
+    <link rel="stylesheet" href="/../css/base.css">
+</head>
+<body>
+        <body>
+                <!-- Style -->
+                <style>
+                    *{
+                        padding:0;
+                        margin:0;
+                        overflow-y: hidden;
+                        -ms-overflow-style: none; /* for Internet Explorer, Edge */
+                        scrollbar-width: none; /* for Firefox */
+                    }
         
-        <!-- Open Graph Meta Tags -->
-        <meta property="og:title" content="The Neolanders | 404" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.theneolanders.com/404.html" />
-        <meta property="og:image" content="https://www.theneolanders.com/assets/NeolandStatic.webp" />
-        <meta property="og:description" content="error 404, page not found!" />
-        <meta property="og:site_name" content="The Neolanders" />
+                    .center{
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        text-align: center;
+                        width: 100vw;
+                        position: relative;
+                        pointer-events: none;
+                        user-select: none;
+                    }
+        
+                    @media screen and (min-width: 972px) {
+                        .center{    
+                            width: 70%;
+                        }
+                    }
+                </style>
 
-        <!-- Style -->
-        <style>
-            *{
-                padding:0;
-                margin:0;
-                overflow-y: hidden;
-                -ms-overflow-style: none; /* for Internet Explorer, Edge */
-                scrollbar-width: none; /* for Firefox */
-            }
-
-            .center{
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                text-align: center;
-                width: 100vw;
-                position: relative;
-                pointer-events: none;
-                user-select: none;
-            }
-
-            @media screen and (min-width: 972px) {
-                .center{    
-                    width: 70%;
-                }
-            }
-        </style>
-		
-		
-    </head>
-    <body>
         <nav class="navbar" id="navbar">
   <a href="javascript:void(0);" class="toggle-button" onclick="toggleMenu()">
     <img src="/../assets/logo.svg" height="50" class="logo" id="logo">
@@ -89,4 +81,5 @@
 			}
 		</script>
     </body>
+</body>
 </html>
