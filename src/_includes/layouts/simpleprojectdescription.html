@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include "partials/basehead.html" %}
+    <link rel="stylesheet" href="/../css/base.css">
+    <link rel="stylesheet" href="/../css/projectsimple.css">
+</head>
+<body>
+    {% include "partials/navbar.html" %}
+    <main>
+        {{content | safe}}
+    </main>
+</body>
+</html>
